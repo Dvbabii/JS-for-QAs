@@ -3,7 +3,7 @@
   Если аргументы не заданы, считать их равными нулю.
   */
 
-  function rgb(a,b,c){
-  console.log("rgb("+(a ?? 0),+(b ?? 0),+(c ?? 0)+")")
+  function rgb(a, b, c) {
+    console.log("rgb(" + (a ? ? 0), +(b ? ? 0), +(c ? ? 0) + ")")
   }
-  rgb(1,undefined,3);
+  rgb(1, undefined, 3);

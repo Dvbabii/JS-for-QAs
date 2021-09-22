@@ -5,14 +5,14 @@
   Переданы две 1 и один 0 - функция вернет 1.
   */
 
-function noiseCorrection(a,b,c){
-if (a+b+c==3 || a+b+c==2)
-console.log(1)
-else if (a+b+c==0)
-console.log(0)
-else if (a+b+c==1)
-console.log(0)
-else
-console.log("Числа могут быть только 0 или 1.")
+function noiseCorrection(a, b, c) {
+  if (a + b + c == 3 || a + b + c == 2)
+    console.log(1)
+  else if (a + b + c == 0)
+    console.log(0)
+  else if (a + b + c == 1)
+    console.log(0)
+  else
+    console.log("Числа могут быть только 0 или 1.")
 }
-noiseCorrection(0,0,0);
+noiseCorrection(0, 0, 0);
